@@ -1,0 +1,4 @@
+Many to Many :
+ - @JsonManagedReference in parent class + @JsonBackReference in child class
+ - @JsonIdentityInfo annotation for both entities
+ - @JsonIgnoreProperties - on for the involved fields
